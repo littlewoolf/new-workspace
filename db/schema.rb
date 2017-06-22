@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170620143909) do
+ActiveRecord::Schema.define(version: 20170622145622) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,12 +18,11 @@ ActiveRecord::Schema.define(version: 20170620143909) do
   create_table "blogs", force: :cascade do |t|
     t.string   "title"
     t.text     "body"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
     t.string   "slug"
-    t.integer "status", default: 0
+    t.integer  "status",     default: 0
     t.index ["slug"], name: "index_blogs_on_slug", unique: true, using: :btree
-    
   end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
