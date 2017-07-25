@@ -58,3 +58,4 @@ gem 'devise', '~> 4.3'
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
 gem 'woolf_view_tool', git: 'https://github.com/littlewoolf/woolf_view_tool'
+gem 'petergate', '~> 1.7', '>= 1.7.5'
