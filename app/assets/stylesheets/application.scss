@@ -8,17 +8,17 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: red;
 }
 
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: #000;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
+  background-color: red;
+  border: .05rem solid red;
 }
 
 
@@ -29,10 +29,10 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #000;
 }
 body {
-  color: #fff;
+  color: red;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
@@ -76,14 +76,14 @@ body {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: bold;
-  color: rgba(255,255,255,.5);
+  color: red;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: red;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -91,7 +91,7 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
+  color: red;
   border-bottom-color: #fff;
 }
 
@@ -123,7 +123,7 @@ body {
  */
 
 .mastfoot {
-  color: rgba(255,255,255,.5);
+  color: red;
 }
 
 
@@ -160,3 +160,21 @@ body {
     width: 50rem;
   }
 }
+
+/*
+ * Custom Styles
+ */
+ 
+ .card{
+   border: black;
+ }
+ 
+ .card-block {
+   color: red;
+   background-color: black;
+   text-align: left;
+ }
+ 
+ .auth-links a {
+   color: red;
+ }
