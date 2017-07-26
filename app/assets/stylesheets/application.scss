@@ -166,7 +166,7 @@ body {
  */
  
  .card{
-   border: black;
+   border: .01rem solid red;
  }
  
  .card-block {
@@ -181,4 +181,10 @@ body {
  
  .register-text a {
    text-align: right;
+ }
+ 
+ .login > .card {
+   width:22rem;
+   margin: 0 auto;
+   float: none;
  }
