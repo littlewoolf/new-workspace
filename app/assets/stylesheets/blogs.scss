@@ -174,11 +174,18 @@ h6, .h6 {
  * Custom styles
  */
  
-.btn-danger{
+.btn-cool{
+  background-color: black;
+   color: red;
+   border: 1px solid red;
+}
+
+.btn-cool:hover {
   background-color: red;
   color: black;
-  border: black;
+  border: 1px solid black;
 }
+
 .social-links li {
   font-size: 2.5em;
 }
@@ -189,4 +196,16 @@ a {
 a:hover {
   color: black;
   background-color: red;
+}
+
+.form-control {
+  color: red;
+  background-color: black;
+  border: 1px solid red;
+}
+
+.form-control:focus {
+  color: red;
+  background-color: black;
+  border: 1px solid red;
 }

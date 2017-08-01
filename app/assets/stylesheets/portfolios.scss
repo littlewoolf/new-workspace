@@ -87,35 +87,74 @@ a:hover {
   color: black;
   background-color: red;
 }
-.btn-danger{
+.btn-cool {
+  background-color: black;
+  color: red;
+  border: 1px solid red;
+}
+
+.btn-cool:hover {
   background-color: red;
   color: black;
-  border: black;
+  border: 1px solid black;
 }
 
 .jumbotron p {
   color: red;
 }
+
 h1 {
   color: red;
   background-color: black;
 }
+
 em {
   color: red;
   background-color: black;
 }
+
 p {
   color: red;
   background-color: black;
 }
+
 h3 {
   color: red;
   background-color: black;
 }
+
 div {
   background-color: black;
 }
+
 .navbar-toggler-icon {
+  color: red;
+  background-color: black;
+  border: 1px solid red;
+}
+
+.portfolio-form {
+  padding: 20px;
+  color: red;
+  background-color: black;
+}
+input {
+  color: red;
+  background-color: black;
+  border: 1px solid red;
+}
+
+body {
+  background-color: black;
+}
+
+.form-control {
+  color: red;
+  background-color: black;
+  border: 1px solid red;
+}
+
+.form-control:focus {
   color: red;
   background-color: black;
   border: 1px solid red;

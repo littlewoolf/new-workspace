@@ -188,8 +188,27 @@ body {
    margin: 0 auto;
    float: none;
  }
- .btn-danger{
-   background-color: red;
-   color: black;
-   border: black;
+ .btn-cool{
+   background-color: black;
+   color: red;
+   border: 1px solid red;
  }
+
+.btn-cool:hover {
+  background-color: red;
+  color: black;
+  border: 1px solid black;
+}
+
+.form-control {
+  color: red;
+  background-color: black;
+  border: 1px solid red;
+}
+
+.form-control:focus {
+  color: red;
+  background-color: black;
+  border: 1px solid red;
+}
+
