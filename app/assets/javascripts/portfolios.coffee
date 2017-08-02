@@ -1,4 +1,4 @@
-ready = undefined
+rready = undefined
 set_positions = undefined
 
 set_positions = ->
@@ -24,5 +24,5 @@ ready = ->
       data: order: updated_order
     return
   return
-  
+
 $(document).ready ready
