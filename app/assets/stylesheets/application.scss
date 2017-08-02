@@ -192,6 +192,7 @@ body {
    background-color: black;
    color: red;
    border: 1px solid red;
+   transition: background-color .5s, color .5s, border .5s;
  }
 
 .btn-cool:hover {
