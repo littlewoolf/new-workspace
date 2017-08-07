@@ -70,6 +70,10 @@ GEM
       railties (>= 4.1.0, < 5.2)
       responders
       warden (~> 1.2.3)
+    dotenv (2.2.1)
+    dotenv-rails (2.2.1)
+      dotenv (= 2.2.1)
+      railties (>= 3.2, < 5.2)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
@@ -161,6 +165,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
+    redis (3.3.3)
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
@@ -214,6 +219,7 @@ DEPENDENCIES
   cocoon (~> 1.2, >= 1.2.10)
   coffee-rails (~> 4.2)
   devise (~> 4.3)
+  dotenv-rails (~> 2.2, >= 2.2.1)
   font-awesome-rails (~> 4.7, >= 4.7.0.2)
   friendly_id (~> 5.1.0)
   gritter (~> 1.2)
@@ -227,6 +233,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 3.0)
   rails (~> 5.0.3)
+  redis (~> 3.3, >= 3.3.3)
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
